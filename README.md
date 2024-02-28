@@ -1,0 +1,1 @@
+This is an attempt to create a landing page using html and css based on pictures of the final design.
