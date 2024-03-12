@@ -1,6 +1,9 @@
 /* Main Settings */
 body {
-    background-color: #F9FAF8;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
 ul li {
     list-style: none;
@@ -14,6 +17,9 @@ main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    background: #F9FAF8;
+    height: 100%;
+    width: 100%;
 }
 /* Hero */
 hero {
@@ -29,7 +35,7 @@ hero p {
     font-size: 18px;
     color: #E5E7EB;
 }
-/* section */
+/* Section */
 section {
     background-color: #F9FAF8;
 }
@@ -54,24 +60,74 @@ section ul li p {
 }
 /* Quote */
 article {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    width: 100%;
+    margin: 0 auto;
 }
 article p {
-    font-size: 36px;
+    width: 75%;
+    margin: -40px auto;
+    padding: 70px;
+    font-size: 24px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
 }
-article header {
-    font-size: 36px;
+article h2 {
+    width: 75%;
+    margin: 20px auto;
+    text-align: end;
+    font-size: 24px;
     font-weight: bolder;
     color: #1F2937;
 }
+/* Aside */
+aside {
+    display: flex;
+    height: 100%;
+}
 aside button {
     display: flex;
+    margin: 20px auto;
+    width: 70%;
+    height: 100%;
     background-color: #3882F6;
+    border-style: none;
+    border-radius: 10px;
+}
+aside ul {
+    display: flex;
+    flex-direction: column;
+}
+aside ul li {
+    margin: 20px 0 -50px 0;
+}
+aside ul li h2 {
+    text-align: start;
+    color: #F9FAF8;
+}
+aside ul li p {
+    color: #F9FAF8;
+}
+#link {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 10px;
+    color: #F9FAF8;
+    text-decoration: none;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
 }
 /* Footer */
 footer {
     background: #1F2937;
+    display: flex;
+    width: 100%;
+}
+footer p {
+    color: #F9FAF8;
+    margin: 20px auto;
 }
