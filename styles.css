@@ -1,4 +1,10 @@
-/* Main Settings */
+/* Default Settings */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
 body {
     background-color: black;
     height: 100%;
@@ -36,27 +42,37 @@ hero p {
     color: #E5E7EB;
 }
 /* Section */
-section {
+.info {
     background-color: #F9FAF8;
+    height: 100%;
+    min-height: 350px;
 }
-section h2 {
+.info h2 {
     font-size: 36px;
     font-style: bolder;
+    text-align: center;
     color: #1F2937;
 }
-section ul {
+.info ul {
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
-section ul li button {
+.info ul li button {
     border-radius: 4px;
     border-color: #3882F6;
-    margin: 16px;
-    padding: 16px;
+    margin: 20px;
+    padding: 70px;
+    cursor: pointer;
 }
-section ul li p {
-    font-size: 16px;
+.info ul li p {
+    font-size: 12px;
     font-style: normal;
+    font-weight: 500;
     color: #1F2937;
+    margin: 0 auto;
+    padding: 0px 50px 20px 20px;
+    text-align: center;
 }
 /* Quote */
 article {
