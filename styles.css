@@ -24,7 +24,7 @@ header {
 header section {
     display: flex;
     width: 100%;
-    max-width: 755px;    
+    max-width: 680px;    
 }
 header h1 {
     color: #F9FAF8;
@@ -60,12 +60,13 @@ main {
 .hero {
     display: flex;
     background-color: #1F2937;
+    width: 100%;
 }
 .hero ul {
     margin: 60px auto;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 }
 .hero h1 {
     font-size: 24px;
@@ -88,7 +89,7 @@ main {
 }
 .hero img {
     margin: 80px auto;
-    padding: 70px 50px;
+    padding: 70px 20px;
     background: gray;
     color: #F9FAF8;
     font-size: 16px;
