@@ -14,9 +14,38 @@ body {
 ul li {
     list-style: none;
 }
-/* Navigation */
-nav {
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    width: 100%;
+}
+header section {
+    display: flex;
+    width: 100%;
+    max-width: 755px;    
+}
+header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    text-align: start;
+    justify-content: start;
+    width: 100%;
+}
+/* Navigation */
+nav ul {
+    display: flex;  
+    align-items: center;
+    justify-content: end;
+    width: 100%; 
+}
+nav ul li {
+    margin-top: 10px;
+    width: 140px;
+}
+nav ul li a {
+    color: #F9FAF8;
 }
 /* Main */
 main {
@@ -40,7 +69,9 @@ main {
 }
 .hero h1 {
     font-size: 24px;
-    color: #F9FAF8;   
+    color: #F9FAF8;
+    width: 100%;
+    max-width: 280px;   
 }
 .hero p {
     font-size: 16px;
@@ -110,14 +141,14 @@ article p {
     padding: 70px;
     font-size: 24px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 500;
     color: #1F2937;
 }
 article h2 {
     width: 75%;
     margin: 20px auto;
     text-align: end;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bolder;
     color: #1F2937;
 }
